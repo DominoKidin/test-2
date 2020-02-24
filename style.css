@@ -1,0 +1,59 @@
+@font-face {
+    font-family: Proxima Nova; 
+    src: url(fonts/proxima-nova-regular.ttf); 
+   }
+
+.block {
+    height: 723px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.header {
+    background-color: #f9f9f9;
+    color: #000000;
+    font-family: "Proxima Nova";
+    text-align: center;
+    font-size: 36px;
+    font-weight: 400;
+    width: 100%;
+    height: 200px;
+    padding-top: 100px;
+
+}
+.element {
+    width: 263px;
+    height: 210px;
+    background-color: #ffffff;
+}
+.buy-button {
+    position: absolute;
+    display: block;
+    border: 1px solid #23bac1;
+    margin: 10px 10px 10px 30px;
+    text-align: center;
+    color: #23bac1;
+    font-family: "Proxima Nova";
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 20px 70px 20px 70px;
+}
+
+.first-p {
+    font-family: "Proxima Nova";
+    text-align: center;
+    /*padding-left: 92px;*/
+    font-size: 16px;
+}
+
+.second-p {
+    font-family: "Proxima Nova";
+    text-align: center;
+    /*padding-left: 91px;*/
+    font-weight: bold;
+    font-size: 18px;
+}
